@@ -1,2 +1,20 @@
-# gothixrr.github.io
-fff
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+</head>
+<body>
+    <h1><center>Recherche stage</center></h1>
+    <img src="AP1 WORDRESS/1200x680.jpg" alt="Image" width="400">
+    <p><b>Date de stage</b> : 18 mai / 19 juin</p>
+    <p><b>Nom et Prénom</b> : Tom Martignée</p>
+    <p><b>Age</b> : 19 ans</p>
+    <p><b>Mobilité</b> : Voiture, permifié</p>
+    <p>Je suis super sociable et souriant ce qui me facilite donc la relation avec les clients</p>
+    <p><b>Compétences principales</b> : Sociable, logique, chante bien et souple</p>
+    <p><b>Parcours pédagogique</b> : BTS SIO, bac technologique, brevet des collèges avec mention</p>
+    <p><b>Expériences professionnelle</b> : J'en ai pas</p>
+    <p><b>Langue</b> : Anglais, espagnol et français</p>
+    <p><b>Centre d'intérêts</b> : Foot, jeux vidéos</p>
+</body>
+</html>

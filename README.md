@@ -4,7 +4,7 @@
 </head>
 <body>
     <h1><center>Recherche stage</center></h1>
-    <img src="AP1 WORDRESS/1200x680.jpg" alt="Image" width="400">
+    <img src="1200x680.jpg" alt="Image" width="400">
     <p><b>Date de stage</b> : 18 mai / 19 juin</p>
     <p><b>Nom et Prénom</b> : Tom Martignée</p>
     <p><b>Age</b> : 19 ans</p>

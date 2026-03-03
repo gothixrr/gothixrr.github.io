@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Maquette simple</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+<table width="100%" border="1">
+    <tr>
+        <td width="20%" align="center">
+            <img src="./../AP3-SLAM/hq720.jpg" alt="Logo" width="220">
+        </td>
+        <td width="80%" align="center">
+            <h1>Ninho</h1>
+        </td>
+    </tr>
+</table>
+
+<table width="100%" border="1">
+    <tr align="center">
+        <th>Chanteur</th>
+        <th>Album</th>
+        <th>Son</th>
+    </tr>
+
+    <tr align="center">
+        <td>Ninho</td>
+        <td>Destin</td>
+        <td>Goutte d’eau</td>
+    </tr>
+
+    <tr align="center">
+        <td>Ninho</td>
+        <td>M.I.L.S</td>
+        <td>M.I.L.S</td>
+    </tr>
+
+    <tr align="center">
+        <td>Ninho</td>
+        <td>Jefe</td>
+        <td>Sky Priority</td>
+    </tr>
+</table>
+
+<table>
+    <form action="index.html" method="post">
+        <tr>
+            <td>Chanteur</td>
+            <td><input type ="text" name="Chanteur"></td>
+        </tr>
+        <tr>
+            <td>Album</td>
+            <td><input type ="text" name="Album"></td>
+            
+        </tr>
+        <tr>
+            <td>Son</td>
+            <td><input type ="text" name="Son"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value ="Envoyer"></td>
+            <td><input type="reset" value ="Annuler"></td>
+        </tr>
+
+    </form>
+</table>
+
+<br>
+<section><br>
+    C'est bien le message que vous voulez envoyer
+    <br>
+    <br>
+   
+
+    <?php
+    $texte1 = $_POST["Chanteur"];
+    $texte2 = $_POST["Album"];
+    $texte3 = $_POST["Son"];
+    echo $texte1, $texte2, $texte3;
+
+    ?>
+
+
+    <br>
+    <a href="index.html"><button>NON</button></a>
+    <a href="index.html"><button>OUI</button></a>
+    </section>
+
+<p>Lien vers chanteur : 
+    <a href="https://open.spotify.com/intl-fr/artist/6Te49r3A6f5BiIgBRxH7FH?si=81cd94f1c27b44a2">
+        Ninho
+    </a>
+</p>
+
+<hr>
+
+</body>
+</html>

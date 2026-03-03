@@ -4,7 +4,7 @@
 </head>
 <body>
     <h1><center>Recherche stage</center></h1>
-    <img src="1200x680.jpg" alt="Image" width="400">
+    <img src="../AP3-SLAM/hq720.jpg" alt="Image" width="400">
     <p><b>Date de stage</b> : 18 mai / 19 juin</p>
     <p><b>Nom et Prénom</b> : Tom Martignée</p>
     <p><b>Age</b> : 19 ans</p>
@@ -15,6 +15,6 @@
     <p><b>Expériences professionnelle</b> : J'en ai pas</p>
     <p><b>Langue</b> : Anglais, espagnol et français</p>
     <p><b>Centre d'intérêts</b> : Foot, jeux vidéos</p>
-    <a href="index.html">Lien vers mon site
+    <a href="index.html">Lien vers mon site</a>
 </body>
 </html>

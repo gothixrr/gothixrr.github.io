@@ -4,20 +4,23 @@
 <script>
     function toggleCompetences() {
         const compSection = document.getElementById('competences');
-        compSection.style.display = 
+        compSection.style.display =
             compSection.style.display === 'none' ? 'block' : 'none';
     }
-</script>    
+</script>
+
+
+  
 
     <title>CV</title>
 </head>
 <body>
     <h1><center>Recherche stage</center></h1>
     <img src="hq720.jpg" alt="Image" width="400">
-    <h2 onclick = "toggleCompetences()"></h2>
-    <div id='competences'>
-     <p><b>Competences</b> : Intelligent, gentil, tchiki brrrrr, code créateur valouzz les gaaaaaaaaaaaars</p>
-    </div>
+   <h2 onclick="toggleCompetences()">Afficher / cacher les compétences</h2>
+ <div id="competences">
+    <p><b>Compétences</b> : Intelligent, gentil, tchiki brrrrr, code créateur valouzz les gaaaaaaaaaaaars</p>
+</div>
     <p><b>Date de stage</b> : 18 mai / 19 juin</p>
     <p><b>Nom et Prénom</b> : Tom Martignée</p>
     <p><b>Age</b> : 19 ans</p>
